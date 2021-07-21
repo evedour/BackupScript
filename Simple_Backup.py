@@ -29,7 +29,7 @@ def xcopy_backup():
     print(src)
     print(dst)
     print("Starting copy... ")
-    os.system(f"xcopy {src} {dst} /v /f /d /i /e /r /h /j /y > logfile.txt")
+    os.system(f"\"xcopy \"{src}\" \"{dst}\" /v /f /d /i /e /r /h /j /y > logfile.txt\"")
     messagebox.showinfo("Backup Complete", "Μπορείτε να δείτε τα αποτελέσματα στο logfile.txt")
 
 

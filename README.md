@@ -1,7 +1,7 @@
 # BackupScript
 Simple Backup script for transfering updated files between two filepaths.
 
-Script uses xcopy command with a GUI.
+Script uses robocopy command with a GUI.
 
 Code by [Eva Nt.](https://github.com/evedour)
 
